@@ -1,28 +1,33 @@
 body {
-  background-color: whitesmoke;
+  background-color: #eae7dc;
   height: 100vh;
   padding: 0;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-#wrapper {
+header {
   margin-top: 100px;
   display: grid;
   text-align: center;
+  background-color: #8e8d8a;
+  box-shadow: 0 1px #333;
 }
+
 #image-solo {
-  border: thin solid #333;
   width: 250px;
   height: 250px;
-  border-radius: 50% 5%;
+  border-radius: 40% 5%;
   box-shadow: 1px 2px #333;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  padding-top: 10px;
 }
 #image-solo:hover {
-  border-radius: 5% 50%;
+  border-radius: 5% 40%;
+  box-shadow: 0 2px#333;
+  padding-top: 10px;
 }
 .my-name {
   margin-top: 15px;
@@ -31,16 +36,33 @@ body {
   text-transform: uppercase;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   text-decoration: wavy;
-  font-size: 1.5em;
-  color: #333;
-  letter-spacing: 2px;
+  font-size: 1.8em;
+  color: white;
+  letter-spacing: 5px;
 }
+.C-s {
+  font-size: 1.2em;
+  transition: all 0.25s ease;
+  font-weight: bold;
+}
+.C-s:hover {
+  color: gold;
+}
+
 .list {
   list-style-type: none;
   padding: 0;
 }
 .list .item,
 a {
+  color: #eae7dc;
   display: inline-block;
   text-decoration: none;
+  margin: 0 10px;
+  letter-spacing: 2px;
+  transition: all 0.2s ease;
+}
+.list .item .list-link:hover {
+  color: gold;
+  text-decoration: underline;
 }
