@@ -1,4 +1,4 @@
-#main-body {
+/* #main-body {
   margin: 0 10%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -16,10 +16,21 @@
   grid-row: 2 / span 3;
   color: black;
   z-index: 1;
-  /* color: #e85a4f; */
+}
+
+#main-body .pic1 {
+  border: black solid thin;
+  grid-column: 3 / span 4;
+  grid-row: 2 / span 3;
+}
+#main-body .pic2 {
+  border: black solid thin;
+}
+#main-body .pic3 {
+  border: black solid thin;
 }
 
 #footer {
   border: black solid thin;
   height: 30px;
-}
+} */
